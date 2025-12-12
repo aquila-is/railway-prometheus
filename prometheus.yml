@@ -15,4 +15,8 @@ scrape_configs:
   
   - job_name: 'cit-frontend'
     static_configs:
-      - targets: ['cit-frontend:9464']
+      - targets: ['cit-frontend:3000']
+    authorization:
+      type: Bearer
+      credentials: "xQDPoHr1TXX6RJMp8BQNVPuPdFKoSagFzpprKj77"
+
